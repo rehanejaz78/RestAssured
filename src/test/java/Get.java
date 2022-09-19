@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.given;
 
 public class Get {
 
-    
+
     @Test
     public static void GET_Test(){
 
