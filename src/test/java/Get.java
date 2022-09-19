@@ -15,6 +15,7 @@ public class Get {
                 .when().get("users?page=2").then().log().all().statusCode(200).extract().response().statusCode();
 
         System.out.println(" Status code of this GET api is : "+code);
+        System.out.println("kjchs");
 
     }
 }
