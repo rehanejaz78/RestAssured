@@ -159,7 +159,7 @@ public class Rest extends base{
                 .then().log().body();
 
         System.out.println("new changes");
-        
+
 
     }
 
